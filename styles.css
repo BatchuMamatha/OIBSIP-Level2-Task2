@@ -1,0 +1,65 @@
+:root {
+  --dark-primary-color: #FFFFFF;
+  --secondary-text-color:#0F1819;
+  --divider-color: #BDBDBD;
+  --accent-color: #FF4081;
+}
+body {
+  margin: 10rem;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--secondary-text-color);
+}
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-color);
+}
+p{
+  padding: 1.8rem;
+  display: flex;
+  font-size: large;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.col-md-6 img {
+  padding: 0 20rem 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  margin: 1rem;
+  display: flex;
+  font-size: large;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+hr.hr-style {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 64, 129), rgba(0, 0, 0, 0));
+}
+
+.dhoni-intro {
+  margin-bottom: 1em;
+}
+.dhoni-timeline {
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.dhoni-timeline ul {
+  padding-left: 20px;
+}
+.dhoni-timeline ul li{
+  margin: 1%;
+}
