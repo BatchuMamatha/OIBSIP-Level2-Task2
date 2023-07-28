@@ -6,6 +6,7 @@
 }
 body {
   margin: 10rem;
+  overflow-x: hidden;
   margin-top: 0%;
   margin-bottom: 0%;
   color: #FFFFFF;
@@ -86,7 +87,8 @@ footer p {
 
 /* Media queries for responsive design */
 @media (max-width: 768px) {
-  body {
+  body 
+    overflow-x: hidden;
     margin: 1rem;
   }
   
@@ -112,6 +114,7 @@ footer p {
 @media (max-width: 480px) {
   body {
     margin: 0.5rem;
+    overflow-x: hidden;
   }
   h1 {
     font-size: medium;
